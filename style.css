@@ -1,0 +1,33 @@
+.body{
+    margin: 0;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 60px ;
+}
+
+.product .card-img-top {
+ height: 260px;
+}
+.product .card .card-body{
+    align-content: space-around;
+}
+
+.product .card .d-grid{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 80px 25%;
+}
